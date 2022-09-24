@@ -7,7 +7,7 @@ import {
 } from "@onehop/react";
 import { toast } from "react-hot-toast";
 import axios from "axios";
-import logo from "../styles/images/logo-h.png"
+import logo from "../logo-h.png"
 
 import styles from "../styles/home.module.scss";
 
