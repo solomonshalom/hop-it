@@ -68,7 +68,17 @@
     opacity: 0.58;
   }
 }
-
+.input_chatX {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+ input {
+  color: white;
+ }
+ 
 .input_container {
   padding: 1rem 1rem;
   display: flex;
