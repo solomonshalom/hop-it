@@ -1,4 +1,4 @@
-mport type { NextPage } from "next";
+import type { NextPage } from "next";
 import { ChangeEvent, KeyboardEvent, useEffect, useState } from "react";
 import {
   useChannelMessage,
