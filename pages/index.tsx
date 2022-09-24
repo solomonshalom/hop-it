@@ -114,6 +114,7 @@ const Home: NextPage = () => {
             ))}
         </div>
         <div className={styles.input_container}>
+          <div className={styles.input_chatX}>
           <div>
             <input
               type={"text"}
@@ -123,6 +124,7 @@ const Home: NextPage = () => {
               placeholder={"Message"}
               disabled={!connected}
             />
+            </div>
             <label>
               use /name [abc] and /color [#fff] to set your name and color
               respectively
