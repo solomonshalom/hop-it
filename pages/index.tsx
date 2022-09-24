@@ -94,7 +94,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div>
         <div className={styles.header}>
-          <div>Messages</div>
+          <div>Hopit</div>
           <div data-src={connected ? "true" : "false"}>
             {connected ? (
               <i className="ri-check-double-fill"></i>
