@@ -55,17 +55,16 @@
   overflow-x: hidden;
   padding: 1rem 1rem;
   font-size: 1em;
-
   display: flex;
   flex-direction: column-reverse;
 
   div {
     word-wrap: break-word;
-    color:rgba(255, 255, 255, 0.1);
   }
 
   span {
     opacity: 0.58;
+    color: black;
   }
 }
 
