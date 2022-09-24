@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+mport type { NextPage } from "next";
 import { ChangeEvent, KeyboardEvent, useEffect, useState } from "react";
 import {
   useChannelMessage,
@@ -9,7 +9,6 @@ import { toast } from "react-hot-toast";
 import axios from "axios";
 
 import styles from "../styles/home.module.scss";
-import styless from "../styles/chat.module.scss";
 
 interface Message {
   user: string;
@@ -95,7 +94,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div>
         <div className={styles.header}>
-          <div>Hopit</div>
+          <div>Messages</div>
           <div data-src={connected ? "true" : "false"}>
             {connected ? (
               <i className="ri-check-double-fill"></i>
@@ -114,9 +113,9 @@ const Home: NextPage = () => {
               </div>
             ))}
         </div>
-        <div className={styless.input_container}>
+        <div className={styles.input_container}>
           <div>
-            <input className="chello"
+            <input
               type={"text"}
               value={input}
               onChange={(e) => _handleChange(e)}
@@ -124,7 +123,6 @@ const Home: NextPage = () => {
               placeholder={"Message"}
               disabled={!connected}
             />
-            </div>
             <label>
               use /name [abc] and /color [#fff] to set your name and color
               respectively
@@ -135,6 +133,7 @@ const Home: NextPage = () => {
           </button>
         </div>
       </div>
+    </div>
   );
 };
 

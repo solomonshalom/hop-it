@@ -18,7 +18,6 @@
   backdrop-filter: blur(18px);
   z-index: 999;
   position: relative;
-  color: black;
 
   > div {
     &:nth-of-type(2) {
@@ -68,17 +67,7 @@
     opacity: 0.58;
   }
 }
-.input_chatX {
-  padding: 1rem 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-}
- input {
-  color: white;
- }
- 
+
 .input_container {
   padding: 1rem 1rem;
   display: flex;
@@ -86,12 +75,13 @@
   align-items: center;
   margin-bottom: 1rem;
 
+  input,
   button {
     padding: 0.85rem;
     border-radius: 18px;
     border: 2px solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 1);
+    color: white;
     font-size: 1em;
     transition: 0.2s ease-in-out;
     outline: none;
@@ -115,6 +105,7 @@
 
   input {
     width: 100%;
+    color: black;
     &:hover {
       background: rgba(255, 255, 255, 0.125);
     }
