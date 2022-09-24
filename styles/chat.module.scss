@@ -6,8 +6,16 @@
     margin-bottom: 1rem;
 
     input {
+        padding: 0.85rem;
+        border-radius: 18px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.1);
         color: rgb(0, 0, 0);
         font-size: 1em;
+        transition: 0.2s ease-in-out;
         outline: none;
+        &:disabled {
+          opacity: 0.85;
+          cursor: not-allowed;
     }
 }
