@@ -114,8 +114,8 @@ const Home: NextPage = () => {
             ))}
         </div>
         <div className={styles.input_container}>
-          <div className={styles.input_chatX}>
           <div>
+          <div className={styles.input_chatX}>
             <input
               type={"text"}
               value={input}
