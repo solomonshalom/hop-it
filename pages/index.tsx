@@ -114,9 +114,8 @@ const Home: NextPage = () => {
               </div>
             ))}
         </div>
-        <div className={styles.input_container}>
+        <div className={styless.input_container}>
           <div>
-            <div className={styless.input_container}>
             <input className="chello"
               type={"text"}
               value={input}
@@ -136,7 +135,6 @@ const Home: NextPage = () => {
           </button>
         </div>
       </div>
-    </div>
   );
 };
 
