@@ -9,6 +9,7 @@ import { toast } from "react-hot-toast";
 import axios from "axios";
 
 import styles from "../styles/home.module.scss";
+import styless from "../styles/chat.module.scss";
 
 interface Message {
   user: string;
@@ -115,7 +116,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.input_container}>
           <div>
-          <div className={styles.input_chatX}>
+            <div className={styless.input_container}>
             <input
               type={"text"}
               value={input}

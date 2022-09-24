@@ -1,0 +1,13 @@
+.input_container {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    input {
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        outline: none;
+    }
+}
