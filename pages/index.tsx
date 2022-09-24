@@ -117,7 +117,7 @@ const Home: NextPage = () => {
         <div className={styles.input_container}>
           <div>
             <div className={styless.input_container}>
-            <input
+            <input className={chello}
               type={"text"}
               value={input}
               onChange={(e) => _handleChange(e)}
