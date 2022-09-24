@@ -108,7 +108,7 @@ const Home: NextPage = () => {
             .sort((a, b) => b.time - a.time)
             .map((e) => (
               <div key={e.time}>
-                <b style={{ color: e.color || "#ffffff" }}>{e.user}</b>{" "}
+                <b style={{ color: e.color || "#000000" }}>{e.user}</b>{" "}
                 <span>{new Date(e.time).toLocaleTimeString()}</span> : {e.text}
               </div>
             ))}
