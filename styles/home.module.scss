@@ -18,6 +18,7 @@
   backdrop-filter: blur(18px);
   z-index: 999;
   position: relative;
+  color: black;
 
   > div {
     &:nth-of-type(2) {
