@@ -95,7 +95,7 @@ const Home: NextPage = () => {
       <div>
         <div className={styles.header}>
           <div>
-          <img src="https://i.imgur.com/0mvMscs.png" alt="Logo" />
+          <img src="https://github.com/solomonshalom/Wefeasto/blob/main/logo-h.svg" alt="Logo" />
           </div>
           <div data-src={connected ? "true" : "false"}>
             {connected ? (
