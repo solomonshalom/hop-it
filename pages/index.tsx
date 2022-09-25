@@ -7,7 +7,6 @@ import {
 } from "@onehop/react";
 import { toast } from "react-hot-toast";
 import axios from "axios";
-import logo from "../logo-h.png"
 
 import styles from "../styles/home.module.scss";
 
@@ -96,7 +95,7 @@ const Home: NextPage = () => {
       <div>
         <div className={styles.header}>
           <div>
-          <img src={logo} alt="Logo" />
+          <img src="https://i.imgur.com/0mvMscs.png" alt="Logo" />
           </div>
           <div data-src={connected ? "true" : "false"}>
             {connected ? (
