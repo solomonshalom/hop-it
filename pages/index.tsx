@@ -94,8 +94,8 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div>
         <div className={styles.header}>
-          <div>
-          <img src="https://i.ibb.co/C533Gj0/logo-h.png" alt="Logo" />
+          <div className="hero-header">
+          Hopsicle
           </div>
           <div data-src={connected ? "true" : "false"}>
             {connected ? (
